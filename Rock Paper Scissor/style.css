@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+}
+
+  
+  h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+  }
+  
+  .choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+  
+  /* .score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+  } */
+
+  .score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+  
+  #user-score,
+  #comp-score {
+    font-size: 4rem;
+  }
+  
+  .msg-container {
+    margin-top: 5rem;
+  }
+  
+
+  #msg {
+    background-color: #ffcc00;
+    color: #081b31;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.5);
+    transition: 0.3s;
+}
+
+#msg:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 204, 0, 0.8);
+}
+
+#resetBtn {
+    background-color: #ff4747;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+#resetBtn:hover {
+    background-color: #d63031;
+    transform: scale(1.1);
+}
